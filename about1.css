@@ -1,0 +1,245 @@
+*{padding: 0%;
+margin: 0%;}
+input[type=checkbox] {
+  display: none;
+} 
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  color: rgb(255, 251, 251);
+}
+
+.homemain{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');}
+    .logo img{
+        height: 5%;
+        width: 7%;
+        float: left;
+        background-image:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+        border-radius: 55%;}
+      .logo h1{
+        text-align: left;
+        font-size: 20px;
+        font-family: arial;
+        color: rgb(187, 103, 7);
+        padding-top: 5%;
+        text-shadow: 2px 2px 4px rgb(187, 103, 7);
+        width: 10%;}
+ /* style for navigation bar */
+      /* .navi{
+        width: 400px;
+        float: left;
+        height: 70px;}
+      .navi ul {
+         align-items: center;
+         overflow: hidden;
+         justify-content: center;
+         float: left;
+         display: flex;} */
+       .navi ul li {
+         list-style-type: none;
+         margin-left: 62px;
+         margin-top: 27px;
+         font-size: 15px;
+        float: left;}
+      .navi li a {
+         color:#817d7d;
+         font-family: arial;
+         font-weight: bold;
+         padding-left:100px;
+         padding-right:2px;
+         padding-top: 50px;
+         padding-bottom: 50px;
+         text-decoration: none;}
+       .navi li a:hover{color:rgb(77, 75, 75);}
+       .main2{
+        box-sizing: border-box;
+        background-color: #e7e5e5;
+        width: 100%;
+        height:650px;
+        background-size: cover;
+        padding:20px;}
+     .main2 nav{
+        box-sizing: border-box;
+        float: left;
+        width: 40%;
+        height: 600px; 
+        padding: 20px;}
+     .main2 article {
+        box-sizing: border-box;
+        float: left;
+        padding: 20px;
+        width: 60%;
+        height: 600px;}
+      .main2 nav h1{
+        font-size:26px;
+        font-family: arial;
+        text-align:justify;
+        padding-left: 85px;
+        color: rgb(5, 3, 0);
+        text-shadow: 2px 2px 5px rgb(124, 121, 121);}
+      .main2 nav h3{
+        font-size:35px;
+        word-spacing: 5px;
+        font-weight:bold;
+        font-family:'Times New Roman', Times, serif;
+        font-style: italic;
+        text-align: justify;
+        padding-left: 5px;
+        color: rgb(8, 3, 1);}
+      .main2 nav p{
+        font-size:17px;
+        word-spacing: 5px;
+        font-weight:bold;
+        font-family:arial;
+        font-style: italic;
+        text-align: justify;
+        padding-left: 5px;
+        color: rgba(8, 0, 0, 0.89);}
+      .main2 article video{
+        width:600px;
+        height:500px;
+        align-items: center;
+        margin-left: 50px;
+        margin-top:20px;}
+     .img{ 
+      display: flex;
+        float: left;
+        width:100%;
+        height:30%;
+      }
+     .img img{
+        padding:1px;
+        width:150px;
+        border-radius: 2px;
+        margin-left:5px;
+        margin-top: 35px;}
+.last footer h1{
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #044c52;
+  }
+  @media  screen and (max-width:800px) {
+    .main2 {
+      box-sizing: border-box;
+      background-color: #e7e5e5;
+      width: 100%;
+      height: 910px;
+      background-size: cover;
+      padding: 0px;
+    } 
+    
+    
+    .main2 nav {
+      box-sizing: border-box;
+      float: left;
+      width: 100%;
+      height: 500px;
+      padding:0px;
+    }
+    
+    .main2 article {
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 0px;
+      width: 100%;
+      height: 400px;
+    }
+    
+    .main2 nav h1 {
+      margin-top: 20px;
+      font-size: 15px;
+      font-family: arial;
+      text-align: justify;
+      padding-left:8px;
+      color: rgb(5, 3, 0);
+      text-shadow: 2px 2px 5px rgb(124, 121, 121);
+    }
+    
+    .main2 nav h3 {
+      margin-top: 10px;
+      font-size: 15px;
+      word-spacing: 5px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      text-align: justify;
+      padding-left: 5px;
+      color: rgb(8, 3, 1);
+    }
+    
+    .main2 nav p {
+      font-size: 12px;
+      word-spacing:0.5px;
+      font-weight: bold;
+      font-family: arial;
+      padding-right: 20px;
+      text-align:justify;
+      font-style: italic;
+      padding-left: 3px;
+      color: rgba(8, 0, 0, 0.89);
+    }
+    
+    .main2 article video {
+      width: 250px;
+      height:350px;
+      margin-left: 30px;
+      margin-top:0px;
+      padding-top:10px;
+    }
+    
+    .img {
+      display:inline-block;
+      width:50%;
+      height: 60%;
+    }
+    
+    .img img {
+      padding: 1px;
+      width: 200px;
+      height: 100px;
+      border-radius: 1px;
+      margin-left: 50px;
+      margin-top: 15px;
+    }
+    .last {
+      width: 100%;
+      height: 70px;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');
+      opacity: 0.7;}
+    .last footer h1{
+      padding-top: 20px;
+      font-style: italic;
+      font-weight: bold;
+      color: rgb(174, 175, 177);
+      font-size: 11px;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');;
+    }
+    .homemain{
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');}
+  
+    .menu{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+    
+    .hamburger {
+      display: block;
+      float: right;
+    }
+    
+  }
+    

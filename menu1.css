@@ -1,0 +1,233 @@
+*{
+   padding: 0%;
+   margin: 0%;
+}
+input[type=checkbox] {
+  display: none;
+} 
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  color: rgb(255, 251, 251);
+}
+
+.homemain{
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');}
+.logo img{
+   height: 5%;
+   width: 7%;
+   float: left;
+   background-image:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+   border-radius: 55%;}
+ .logo h1{
+   text-align: left;
+   font-size: 20px;
+   font-family: arial;
+   color: rgb(187, 103, 7);
+   padding-top: 5%;
+   text-shadow: 2px 2px 4px rgb(187, 103, 7);
+   width: 10%;}
+/* style for navigation bar */
+ /* .navi{
+   width: 400px;
+   float: left;
+   height: 70px;}
+ .navi ul {
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    float: left;
+    display: flex;} */
+  .navi ul li {
+    list-style-type: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+  float: left;}
+ .navi li a {
+    color:#817d7d;
+    font-family: arial;
+    font-weight: bold;
+    padding-left:100px;
+    padding-right:2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;}
+  .navi li a:hover{color:rgb(77, 75, 75);}
+  .main4{
+   box-sizing: border-box;
+   background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/co.jpg');
+   width:100%;
+   height:800px;
+   background-size: cover;
+   padding:10px;}
+.main4 h1{
+   font-size:35px;
+   font-family: arial;
+   text-align:justify;
+   padding-left:10px;
+   margin-top: 30px;
+   color: rgb(194, 90, 4);
+   text-shadow: 2px 2px 5px rgb(20, 1, 1);}
+.list article{
+   margin-left: 650px;
+   box-sizing: border-box;
+   float: left;
+   padding: 20px;
+   width: 50%;
+   height: 550px;}
+.list article h1{
+   text-align: justify;
+   font-size: 17px;
+   padding-left: 50px;
+   font-family: Verdana;
+   font-style: italic;
+   color: rgb(187, 103, 7);
+   text-shadow: 2px 2px 4px rgba(187, 103, 7, 0.897);}
+.list article p{
+   text-align: justify;
+   font-size: 17px;
+   padding-left: 60px;
+   font-family: verdana;
+   font-style: italic;
+   margin-left: 5px;
+   color: rgb(187,103,7);
+   text-shadow: 2px 2px 4px rgba(183,103,7,0.897);}
+.list article h2 {
+   font-size:20px;
+   font-family: arial;
+   text-align:justify;
+   padding-left:60px;
+   margin-top: 30px;
+   color: rgb(177, 174, 170);
+   text-shadow: 2px 2px 5px rgb(131, 126, 126);}
+.list article ul li{
+   list-style-type: none;
+   text-align: justify;
+   font-family: arial;
+   font-style: italic;
+   font-size: 18px;
+   color: #8f8b8b;
+   text-shadow: 2px 2px 5px rgb(65, 57, 57);}
+    .last {
+      width: 100%;
+      height: 70px;
+    }
+    /* style the footer page */
+    .last footer h1{
+      padding-top: 40px;
+      height: 70px;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 18px;
+      background-color:#394041;
+    }
+@media screen and (max-width:800px){
+   .homemain{
+      width: 100%;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
+   background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');}
+   
+   .main4 {
+      box-sizing: border-box;
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/co.jpg');
+      width: 100%;
+      height:700px;
+      background-size: cover;
+      padding-left: 0px;
+    }
+    
+    .main4 h1 {
+      font-size: 15px;
+      font-family: arial;
+      text-align: justify;
+      padding-left: 0px;
+      margin-top: 0px;
+      color: rgb(194, 90, 4);
+      text-shadow: 2px 2px 5px rgb(20, 1, 1);
+    }
+    
+    .list article {
+      margin-left: 0px;
+      box-sizing: border-box;
+      float: left;
+      padding-top: 20px;
+      width: 80%;
+      height: 250px;
+    }
+    
+    .list article h1 {
+      text-align: justify;
+      font-size: 13px;
+      font-family: Verdana;
+      font-style: italic;
+      padding-left: 65px;
+      margin-top: 60px;
+      color: rgb(187, 103, 7);
+      text-shadow: 2px 2px 4px rgba(187, 103, 7, 0.897);
+    }
+    
+    .list article p {
+      text-align: justify;
+      font-size: 13px;
+      font-family: verdana;
+      font-style: italic;
+      margin-left: 25px;
+      color: rgb(187, 103, 7);
+      text-shadow: 2px 2px 4px rgba(183, 103, 7, 0.897);
+    }
+    
+    .list article h2 {
+      font-size: 13px;
+      font-family: arial;
+      text-align: justify;
+      padding-left:65px;
+      margin-top: 0px;
+      color: rgb(177, 174, 170);
+      text-shadow: 2px 2px 5px rgb(131, 126, 126);
+    }
+    
+    .list article ul li {
+      list-style-type: none;
+      padding-left: 30px;
+      text-align: justify;
+      font-family: arial;
+      font-style: italic;
+      font-size: 12px;
+      color: #8f8b8b;
+      text-shadow: 2px 2px 5px rgb(65, 57, 57);
+    }
+    .last {
+      width: 100%;
+      height: 70px;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');
+      opacity: 0.7;}
+    .last footer h1{
+      padding-top: 20px;
+      font-style: italic;
+      font-weight: bold;
+      color: rgb(174, 175, 177);
+      font-size: 11px;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');;
+    }
+    .menu{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+    
+    .hamburger {
+      display: block;
+      float: right;
+    }
+
+   }

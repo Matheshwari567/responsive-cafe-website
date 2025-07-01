@@ -1,0 +1,971 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* navbar */
+input[type=checkbox] {
+  display: none;
+} 
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  color: rgb(255, 251, 251);
+}
+/* main class style */
+.main {
+  box-sizing: border-box;
+  /* using background image linear gradient */
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/cafe.jpg');
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.logo img {
+  height: 5%;
+  width: 7%;
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+  border-radius: 55%;
+}
+
+.logo h1 {
+  text-align: left;
+  font-size: 20px;
+  font-family: arial;
+  color: rgb(187, 103, 7);
+  padding-top: 5%;
+  text-shadow: 2px 2px 4px rgb(187, 103, 7);
+  width: 10%;
+}
+
+/* style for navigation bar */
+/* nav {
+  max-width: 400px;
+  float: left;
+  height: 70px;
+  padding-left: 10px;
+} */
+
+/* nav ul {
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  float: left;
+  display: flex;
+} */
+
+nav ul li {
+  list-style-type: none;
+  /* margin-left: 62px; */
+  margin-top: 27px;
+  font-size: 15px;
+  float: left;
+}
+
+nav li a {
+  color: #bbb7b7;
+  font-family: arial;
+  font-weight: bold;
+  padding-left: 140px;
+  padding-right: 2px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: none;width: fit-content;
+}
+
+nav li a:hover {
+  color: rgb(241, 232, 232);
+}
+
+.quotes h1 {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 150px;
+  color: rgb(158, 68, 4);
+  text-shadow: 1px 1px 1px rgb(29, 27, 25);
+  text-align: justify;
+}
+
+.quotes p {
+  font-size: 20px;
+  font-family: arial;
+  text-align: left;
+  padding-left: 20px;
+  color: #bbb7b7;
+  text-shadow: 1px 1px 2px rgb(34, 34, 33);
+  text-align: justify;
+}
+
+/* style the button */
+.main button {
+  background-color: rgb(158, 68, 4);
+  border-radius: 8px;
+  color: rgb(31, 24, 24);
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  border: 1px solid rgb(116, 110, 110);
+  cursor: pointer;
+}
+
+.main button:hover {
+  color: rgb(8, 12, 15);
+  background-color: #bb5421;
+}
+
+/*style the home */
+.main1 {
+  box-sizing: border-box;
+  background-color: rgb(161, 153, 153);
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  padding: 20px;
+}
+
+.page2 {
+  height: 100px;
+  width: 550px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.page2 h1 {
+  font-size: 30px;
+  font-family: arial;
+  text-align: left;
+  padding-left: 120px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(49, 42, 38);
+  border-bottom: double;
+  border-width: 5px;
+  text-shadow: 2px 2px 5px rgb(102, 96, 96);
+}
+
+.para {
+  height: 450px;
+  width: 550px;
+  padding-top: 2px;
+}
+
+.para p {
+  opacity: 0.9;
+  font-size: 23px;
+  word-spacing: 5px;
+  text-shadow: 2px 2px 5px rgb(124, 121, 121);
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 15px;
+  color: rgb(31, 29, 28);
+}
+
+.img5 {
+  height: 450px;
+  width: 450px;
+
+  float: right;
+}
+
+.img5 img {
+  height: 450px;
+  width: 450px;
+  opacity: 0.7;
+  float: right;
+  margin-right: 80px;
+  border-radius: 50%;
+  margin-top: 5px;
+  box-shadow: 0 4px 10px 0 rgba(17, 15, 15, 0.897), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  background-color: aliceblue;
+}
+
+/* about style */
+.main2 {
+  box-sizing: border-box;
+  background-color: #e7e5e5;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  padding: 20px;
+}
+
+.main2 nav {
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  height: 600px;
+  padding: 20px;
+}
+
+.main2 article {
+  box-sizing: border-box;
+  float: left;
+  padding: 20px;
+  width: 60%;
+  height: 600px;
+}
+
+.main2 nav h1 {
+  margin-top: 40px;
+  font-size: 26px;
+  font-family: arial;
+  text-align: justify;
+  padding-left: 85px;
+  color: rgb(5, 3, 0);
+  text-shadow: 2px 2px 5px rgb(124, 121, 121);
+}
+
+.main2 nav h3 {
+  margin-top: 20px;
+  font-size: 35px;
+  word-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: justify;
+  padding-left: 5px;
+  color: rgb(8, 3, 1);
+}
+
+.main2 nav p {
+  font-size: 17px;
+  word-spacing: 5px;
+  font-weight: bold;
+  font-family: arial;
+  font-style: italic;
+  text-align: justify;
+  padding-left: 5px;
+  color: rgba(8, 0, 0, 0.89);
+}
+
+.main2 article video {
+  width: 600px;
+  height: 500px;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.img {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 30%;
+}
+
+.img img {
+  padding: 1px;
+  width: 150px;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-top: 35px;
+}
+
+/*menu style */
+.main4 {
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/co.jpg');
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  padding: 10px;
+}
+
+.main4 h1 {
+  font-size: 35px;
+  font-family: arial;
+  text-align: justify;
+  padding-left: 10px;
+  margin-top: 30px;
+  color: rgb(194, 90, 4);
+  text-shadow: 2px 2px 5px rgb(20, 1, 1);
+}
+
+.list article {
+  margin-left: 650px;
+  box-sizing: border-box;
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: 550px;
+}
+
+.list article h1 {
+  text-align: justify;
+  font-size: 17px;
+  font-family: Verdana;
+  font-style: italic;
+  color: rgb(187, 103, 7);
+  padding-left: 60px;
+  text-shadow: 2px 2px 4px rgba(187, 103, 7, 0.897);
+}
+
+.list article p {
+  text-align: justify;
+  font-size: 17px;
+  font-family: verdana;
+  font-style: italic;
+  margin-left: 80px;
+  color: rgb(187, 103, 7);
+  text-shadow: 2px 2px 4px rgba(183, 103, 7, 0.897);
+}
+
+.list article h2 {
+  font-size: 20px;
+  font-family: arial;
+  text-align: justify;
+  padding-left: 60px;
+  margin-top: 5px;
+  color: rgb(177, 174, 170);
+  text-shadow: 2px 2px 5px rgb(131, 126, 126);
+}
+
+.list article ul li {
+  list-style-type: none;
+  text-align: justify;
+  font-family: arial;
+  font-style: italic;
+  font-size: 18px;
+  color: #8f8b8b;
+  text-shadow: 2px 2px 5px rgb(65, 57, 57);
+}
+
+/* style the gallery*/
+.main5{
+  box-sizing: border-box;
+  background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cof.jpg');
+  width:100%;
+  height:850px;
+  background-size: cover;
+  padding:10px;}
+.main5 h1{
+  font-size:30px;
+  font-family: arial;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  margin-bottom: 30px;
+  color: rgb(49, 42, 38);
+ text-shadow: 2px 2px 5px rgb(102, 96, 96);}
+.gall{
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 390px;
+    margin-left: 20px;
+    box-shadow: #e7e2e2;
+    background-color: #141212;}
+  .gall img{
+    width: 350px;
+    height: 230px;
+    margin-top: 30px;
+    padding-left:20px;
+  }
+  .desc{
+    padding: 15px;
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    color: #ccc;
+  }
+/* style the contact page */
+.main6 {
+  max-width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/last.jpg');
+  ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main6 h1 {
+  padding-top: 50px;
+  margin-left: 600px;
+  font-size: 25px;
+  color: #1d1c1c;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.main6 p {
+  margin-top: 50px;
+  margin-left: 540px;
+  font-size: 20px;
+  color: #1b1a1a;
+  font-style: italic;
+  word-spacing: 5px;
+}
+
+/* style the location map */
+.main6 iframe {
+  width: 60%;
+  height: 55%;
+  border: none;
+  border-radius: 5%;
+  opacity: 0.7;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+.last {
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* style the footer page */
+.last footer h1 {
+  margin-left: 560px;
+  padding-top: 10px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  color: rgb(165, 166, 167);
+}
+
+.mail {
+  box-sizing: border-box;
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.mail label {
+  font-size: 14px;
+  font-family: verdana;
+  font-style: italic;
+  margin-left: px;
+  color: #c2bfbf;
+  font-weight: bold;
+}
+
+.mail input {
+  border-radius: 10px;
+  height: 40px;
+  width: 350px;
+  background-color: #8f8b8b;
+  border-width: 5px solid black;
+
+}
+
+/*.sub{
+        box-sizing: border-box;
+          margin-top: 30px;
+          text-align: justify;
+          
+      }
+    .sub input{border-radius: 10px;
+      height:30px;
+    width:130px;
+  margin-left:px;}*/
+.com {
+  box-sizing: border-box;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.com label {
+  font-size: 14px;
+  font-family: verdana;
+  font-style: italic;
+  margin-left: px;
+  color: #c4bfbf;
+  font-weight: bold;
+}
+
+.com textarea {
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 100px;
+  width: 500px;
+  margin-left: px;
+  background-color: #8f8b8b;
+}
+
+.com button {
+  background-color: #8f8b8b;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-style: italic;
+  height: 40px;
+  width: 130px;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    box-sizing: border-box;
+    /* using background image linear gradient */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/cafe.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+  }
+
+  .quotes p {
+    font-size: 12px;
+    font-family: arial;
+    text-align: left;
+    padding-left: 10px;
+    color: #bbb7b7;
+    text-shadow: 1px 1px 2px rgb(34, 34, 33);
+    text-align: justify;
+  }
+
+  .quotes h1 {
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 40px;
+    color: rgb(158, 68, 4);
+    text-shadow: 1px 1px 1px rgb(29, 27, 25);
+    text-align: justify;
+  }
+
+  .main button {
+    background-color: rgb(158, 68, 4);
+    border-radius: 8px;
+    color: rgb(31, 24, 24);
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    border: 1px solid rgb(116, 110, 110);
+    cursor: pointer;
+  }
+
+  /*style the home*/
+  .main1 {
+    box-sizing: border-box;
+    background-color: rgb(161, 153, 153);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+padding-left: 10px;
+  }
+
+  .page2 {
+    height: 30px;
+    width: 110px;
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+  }
+
+  .page2 h1 {
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    color: rgb(49, 42, 38);
+    text-shadow: 2px 2px 5px rgb(102, 96, 96);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .para {
+    height: 180px;
+    width: 280px;
+    padding-top: 50px;
+  }
+
+  .para p {
+    opacity: 0.9;
+    font-size: 12px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 5px rgb(124, 121, 121);
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 170px;
+    padding-left: 0px;
+
+    color: rgb(31, 29, 28);
+  }
+
+  .img5 {
+    height: 150px;
+    width: 150px;
+
+    float: left;
+  }
+
+  .img5 img {
+    height: 140px;
+    width: 150px;
+    opacity: 0.7;
+    float: left;
+    margin-right: 80px;
+    border-radius: 50%;
+    margin-top: 35px;
+    box-shadow: 0 4px 10px 0 rgba(17, 15, 15, 0.897), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    background-color: aliceblue;
+  }
+/*style the about page*/
+.main2 {
+  box-sizing: border-box;
+  background-color: #e7e5e5;
+  width: 100%;
+  height: 910px;
+  background-size: cover;
+  padding: 0px;
+} 
+
+
+.main2 nav {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  height: 500px;
+  padding:0px;
+}
+
+.main2 article {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0px;
+  width: 100%;
+  height: 400px;
+}
+
+.main2 nav h1 {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: arial;
+  text-align: justify;
+  padding-left:8px;
+  color: rgb(5, 3, 0);
+  text-shadow: 2px 2px 5px rgb(124, 121, 121);
+}
+
+.main2 nav h3 {
+  margin-top: 10px;
+  font-size: 15px;
+  word-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: justify;
+  padding-left: 5px;
+  color: rgb(8, 3, 1);
+}
+
+.main2 nav p {
+  font-size: 12px;
+  word-spacing:0.5px;
+  font-weight: bold;
+  font-family: arial;
+  padding-right: 20px;
+  text-align:justify;
+  font-style: italic;
+  padding-left: 3px;
+  color: rgba(8, 0, 0, 0.89);
+}
+
+.main2 article video {
+  width: 250px;
+  height:350px;
+  margin-left: 30px;
+  margin-top:0px;
+  padding-top:10px;
+}
+
+.img {
+  display:inline-block;
+  width:50%;
+  height: 60%;
+}
+
+.img img {
+  padding: 1px;
+  width: 200px;
+  height: 100px;
+  border-radius: 1px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+/* menu style*/
+.main4 {
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/co.jpg');
+  width: 100%;
+  height:550px;
+  background-size: cover;
+  padding-left: 0px;
+}
+
+.main4 h1 {
+  font-size: 15px;
+  font-family: arial;
+  text-align: justify;
+  padding-left: 0px;
+  margin-top: 0px;
+  color: rgb(194, 90, 4);
+  text-shadow: 2px 2px 5px rgb(20, 1, 1);
+}
+
+.list article {
+  margin-left: 0px;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 20px;
+  width: 80%;
+  height: 250px;
+}
+
+.list article h1 {
+  text-align: justify;
+  font-size: 13px;
+  font-family: Verdana;
+  font-style: italic;
+  padding-left: 65px;
+  color: rgb(187, 103, 7);
+  text-shadow: 2px 2px 4px rgba(187, 103, 7, 0.897);
+}
+
+.list article p {
+  text-align: justify;
+  font-size: 13px;
+  font-family: verdana;
+  font-style: italic;
+  margin-left: 85px;
+  color: rgb(187, 103, 7);
+  text-shadow: 2px 2px 4px rgba(183, 103, 7, 0.897);
+}
+
+.list article h2 {
+  font-size: 13px;
+  font-family: arial;
+  text-align: justify;
+  padding-left:65px;
+  margin-top: 0px;
+  color: rgb(177, 174, 170);
+  text-shadow: 2px 2px 5px rgb(131, 126, 126);
+}
+
+.list article ul li {
+  list-style-type: none;
+  padding-left: 35px;
+  text-align: justify;
+  font-family: arial;
+  font-style: italic;
+  font-size: 12px;
+  color: #8f8b8b;
+  text-shadow: 2px 2px 5px rgb(65, 57, 57);
+}}
+/*style the gallery*/
+@media screen and (max-width:800px){
+.main5 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/cof.jpg');
+  width: 100%;
+  height: 1300px;
+  background-size: cover;
+  padding: 3px;
+  display:inline-block;
+}
+
+.main5 h1 {
+  font-size: 12px;
+  font-family: arial;
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  color: rgb(49, 42, 38);
+  text-shadow: 2px 2px 5px #666060;
+}
+.gall {
+  margin: 0px;
+  border: 2px solid #ccc;
+  display: inline-block;
+  width: 260px;
+  margin-right: 1000px;
+  margin-left: 10px;
+  box-shadow: #201d1d;
+  background-color: #141212;
+}
+
+.gall img {
+  width: 210px;
+  height: 150px;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.desc {
+  padding: 5px;
+  text-align: center;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  }}
+/* style the Contact*/
+@media screen and (max-width:800px){
+.main6 {
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/last.jpg');
+  background-size: cover;
+  width:500%;
+  height:500px;
+  }
+
+.main6 h1 {
+  padding-top: 10px;
+  margin-left: 80px;
+  font-size: 12px;
+  color: #1d1c1c;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.main6 p {
+  margin-top: 0px;
+  margin-left: 80px;
+  font-size: 12px;
+  color: #1b1a1a;
+  font-style: italic;
+  word-spacing: 2px;
+}
+
+/* style the location map */
+.main6 iframe {
+  width: 75%;
+  height: 45%;
+  border: none;
+  border-radius: 5%;
+  opacity: 0.7;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+/* style the footer*/
+
+.last {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* style the footer page */
+.last footer h1 {
+  margin-left: 100px;
+  padding-top: 10px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  color: rgb(165, 166, 167);
+}
+
+.mail {
+  box-sizing: border-box;
+  margin-top: 5px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.mail label {
+  font-size: 10px;
+  font-family: verdana;
+  font-style: italic;
+  margin-left: px;
+  color: #c2bfbf;
+  font-weight: bold;
+}
+
+.mail input {
+  border-radius: 10px;
+  height: 20px;
+  width: 150px;
+  background-color: #8f8b8b;
+  border-width: 5px solid black;
+
+}
+
+.com {
+  box-sizing: border-box;
+  text-align: justify;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.com label {
+  font-size: 10px;
+  font-family: verdana;
+  font-style: italic;
+  margin-left: 0px;
+  color: #c4bfbf;
+  font-weight: bold;
+}
+
+.com textarea {
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin-left: px;
+  background-color: #8f8b8b;
+}
+
+.com button {
+  background-color: #8f8b8b;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-style: italic;
+  height: 20px;
+  width: 50px;
+  margin-left: 0px;
+}
+/* navbar */
+.menu{
+  display: none;
+}
+input[type=checkbox]:checked ~ .menu {
+  display: block;
+}
+
+.hamburger {
+  display: block;
+  float: right;
+}
+}

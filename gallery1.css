@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+input[type=checkbox] {
+  display: none;
+} 
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  color: rgb(255, 251, 251);
+}
+
+.gallmain{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');
+}
+.logo img{
+    height: 5%;
+    width: 7%;
+    float: left;
+    background-image:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    border-radius: 55%;}
+  .logo h1{
+    text-align: left;
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(187, 103, 7);
+    padding-top: 5%;
+    text-shadow: 2px 2px 4px rgb(187, 103, 7);
+    width: 10%;}
+/* style for navigation bar */
+  /* .navi{
+    width: 400px;
+    float: left;
+    height: 70px;}
+  .navi ul {
+     align-items: center;
+     overflow: hidden;
+     justify-content: center;
+     float: left;
+     display: flex;} */
+   .navi ul li {
+     list-style-type: none;
+     margin-left: 62px;
+     margin-top: 27px;
+     font-size: 15px;
+    float: left;}
+  .navi li a {
+     color:#817d7d;
+     font-family: arial;
+     font-weight: bold;
+     padding-left:100px;
+     padding-right:2px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-decoration: none;}
+   .navi li a:hover{color:rgb(77, 75, 75);}
+   .main5{
+    box-sizing: border-box;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cof.jpg');
+    width:100%;
+    height:850px;
+    background-size: cover;
+    padding:10px;}
+  .main5 h1{
+    font-size:30px;
+    font-family: arial;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+    color: rgb(49, 42, 38);
+   text-shadow: 2px 2px 5px rgb(102, 96, 96);}
+  .gall{
+      margin: 5px;
+      border: 2px solid #ccc;
+      float: left;
+      width: 390px;
+      margin-left: 20px;
+      box-shadow: #e7e2e2;
+      background-color: #141212;}
+    .gall img{
+      width: 350px;
+      height: 230px;
+      margin-top: 30px;
+      padding-left:20px;
+    }
+    .desc{
+      padding: 15px;
+      text-align: center;
+      font-family: arial;
+      font-style: italic;
+      font-weight: bold;
+      color: #ccc;
+    }
+    .last {
+        width: 100%;
+        height: 85px;
+        background-color: #ee5d15;
+        opacity: 0.7;
+      }
+      /* style the footer page */
+      .last footer h1{
+        padding-top: 20px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #fa5c0c;
+      }
+      @media screen and (max-width:800px){
+        .main5 {
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/cof.jpg');
+          width: 100%;
+          height: 1300px;
+          background-size: cover;
+          padding: 3px;
+          display:inline-block;
+        }
+        
+        .main5 h1 {
+          font-size: 12px;
+          font-family: arial;
+          text-align: left;
+          padding-left: 0px;
+          padding-bottom: 0px;
+          padding-top: 5px;
+          margin-bottom: 0px;
+          color: rgb(49, 42, 38);
+          text-shadow: 2px 2px 5px #666060;
+        }
+        .gall {
+          margin: 0px;
+          border: 2px solid #ccc;
+          display: inline-block;
+          width: 260px;
+          margin-right: 1000px;
+          margin-left: 10px;
+          box-shadow: #201d1d;
+          background-color: #141212;
+        }
+        
+        .gall img {
+          width: 210px;
+          height: 150px;
+          margin-top: 15px;
+          padding-left: 20px;
+        }
+        
+        .desc {
+          padding: 5px;
+          text-align: center;
+          font-family: arial;
+          font-style: italic;
+          font-weight: bold;
+          color: #ccc;
+          }
+          .last {
+            width: 100%;
+            height: 70px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');
+            opacity: 0.7;}
+          .last footer h1{
+            padding-top: 20px;
+            font-style: italic;
+            font-weight: bold;
+            color: rgb(174, 175, 177);
+            font-size: 11px;
+           background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');;
+          }
+          .menu{
+            display: none;
+          }
+          input[type=checkbox]:checked ~ .menu {
+            display: block;
+          }
+          
+          .hamburger {
+            display: block;
+            float: right;
+          }
+        }
+        

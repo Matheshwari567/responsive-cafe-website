@@ -1,0 +1,235 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+input[type=checkbox] {
+  display: none;
+} 
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+
+  font-size: 24px;
+  user-select: none;
+  color: rgb(255, 251, 251);
+}
+
+.homemain{
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');}
+.logo img{
+    height: 5%;
+    width: 7%;
+    float: left;
+    background-image:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    border-radius: 55%;}
+  .logo h1{
+    text-align: left;
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(187, 103, 7);
+    padding-top: 5%;
+    text-shadow: 2px 2px 4px rgb(187, 103, 7);
+    width: 10%;}
+/* style for navigation bar */
+  /* .navi{
+    width: 400px;
+    float: left;
+    height: 70px;}
+  .navi ul {
+     align-items: center;
+     overflow: hidden;
+     justify-content: center;
+     float: left;
+     display: flex;} */
+   .navi ul li {
+     list-style-type: none;
+     margin-left: 62px;
+     margin-top: 50px;
+     font-size: 15px;
+    float: left;}
+  .navi li a {
+     color:#817d7d;
+     font-family: arial;
+     font-weight: bold;
+     padding-left:100px;
+     padding-right:2px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-decoration: none;}
+   .navi li a:hover{color:rgb(77, 75, 75);}
+ 
+.main1{
+    box-sizing: border-box;
+    background-color:rgb(161, 153, 153);
+    width:100%;
+    height:650px;
+    background-size: cover;
+    padding:20px;}
+  .page2{
+    height:100px;
+    width:550px;
+    padding-left: 10px;
+    padding-top:2px;
+    padding-bottom: 5px;}
+  .page2 h1{
+     font-size:30px;
+     font-family: arial;
+     text-align: left;
+     padding-left: 120px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-bottom: 30px;
+     color: rgb(49, 42, 38);
+     border-bottom: double;
+     border-width: 5px;
+     text-shadow: 2px 2px 5px rgb(102, 96, 96);}
+  .para{
+     height:450px;
+     width:550px;
+     padding-top:2px;}
+  .para p{
+     opacity: 0.9;
+     font-size: 20px;
+     word-spacing: 5px;
+     text-shadow: 2px 2px 5px rgb(124, 121, 121);
+     font-weight: 900;
+     font-family:'Times New Roman', Times, serif;
+     font-style: italic;
+     text-align: justify;
+     margin-top: 20px;
+     padding-left: 15px;
+     color: rgb(31, 29, 28);}
+  .main1 img{
+     height: 450px;
+     width:450px;
+     opacity: 0.7;
+     float: right;
+     margin-right: 80px;
+     border-radius:50%; 
+     margin-top:5px ;
+     box-shadow: 0 4px 10px 0 rgba(17, 15, 15, 0.897), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+     background-color: aliceblue;}
+     .last {
+        width: 100%;
+        height: 85px;
+        
+      }
+      /* style the footer page */
+      .last footer h1{
+        padding-top: 20px;
+        font-style: italic;
+        font-weight: bold;
+        height: 85px;
+        font-size: 18px;
+        background-color:#03292c;
+      }
+@media screen and (max-width:800px){
+  .homemain{
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('images/cafe.jpg');
+  }
+  .main1 {
+    box-sizing: border-box;
+    background-color: rgb(161, 153, 153);
+    width: 100%;
+    height:650px;
+    background-size: cover;
+padding-left: 10px;
+  }
+
+  .page2 {
+    height: 30px;
+    width: 110px;
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+  }
+
+  .page2 h1 {
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    color: rgb(49, 42, 38);
+    text-shadow: 2px 2px 5px rgb(102, 96, 96);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .para {
+    height: 180px;
+    width: 280px;
+    padding-top: 50px;
+  }
+
+  .para p {
+    opacity: 0.9;
+    font-size: 12px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 5px rgb(124, 121, 121);
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 170px;
+    padding-left: 0px;
+
+    color: rgb(31, 29, 28);
+  }
+
+  .img5 {
+    height: 150px;
+    width: 150px;
+
+    float: left;
+  }
+
+  .img5 img {
+    height: 140px;
+    width: 150px;
+    opacity: 0.7;
+    float: left;
+    margin-right: 80px;
+    border-radius: 50%;
+    margin-top: 35px;
+    box-shadow: 0 4px 10px 0 rgba(17, 15, 15, 0.897), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    background-color: aliceblue;
+  }
+  /* style the footer page */
+  .last {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');
+    opacity: 0.7;}
+  .last footer h1{
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(174, 175, 177);
+    font-size: 11px;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('images/coffeebeans.jpg');;
+  }
+  .menu{
+    display: none;
+  }
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+  
+  .hamburger {
+    display: block;
+    float: right;
+  }
+  
+  }
+
